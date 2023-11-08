@@ -13,7 +13,7 @@
 
 number,sum = int(input("Enter a Number:")) ,0
 for i in range(number+1):
-  sum+=i
+  sum+=i # same as sum = sum + i.
 print(sum)
 
 # Initialize the required variables.
