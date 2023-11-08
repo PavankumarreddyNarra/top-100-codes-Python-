@@ -1,4 +1,4 @@
-# Python Program to check if a Number Is c
+# Python Program to check if a Number Is positive or negative
 # Given an integer input, the objective is to write a code to check if a number is positive or negative in the python Language.
 
 # For Instance,
@@ -7,13 +7,13 @@
 
 
 #Method - 1
-# num = int(input("enter a number:"))
-# if num > 0:
-#     print ("The number is positive")
-# elif num <0:
-#     print("The number is negative")
-# else:
-#     print("The number is neither positive nor negative")
+num = int(input("enter a number:"))
+if num > 0:
+    print ("The number is positive")
+elif num <0:
+    print("The number is negative")
+else:
+    print("The number is neither positive nor negative")
     
 # Initialize num by taking input from user.
 # If the num > 0: it is a positive number.
@@ -22,14 +22,7 @@
 
 
 #Method - 2 (Nested if statements)
-# num = int(input("enter a number:"))
-# if num>=0:
-#     if num==0:
-#         print('Zero')
-#     else:
-#         print("Positive")
-# else:
-#     print("Negative")
+
 
 #Initialize by taking input from user.
 #If the num >= 0
@@ -37,6 +30,12 @@
 #Else number has to be positive 
 #Else the number has to be negative
 
+#Method 3 (Using Ternary Operator)
 
+num = int(input("enter a number:"))
+print("Positive" if num>=0 else "Negative")
+
+# Initialize num by taking input from user.
+# print the output using ternary operator in python using print () function.
     
     
