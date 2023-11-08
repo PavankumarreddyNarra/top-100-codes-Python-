@@ -1,0 +1,20 @@
+# Find the sum of the Digits of a Number in Python
+# Given an input the objective to find the Sum of Digits of a Number in Python. To do so we’ll first extract the last element of the number and then keep shortening the number itself.
+
+# Example
+# Input : number = 123
+# Output : 6
+
+
+num = input("Enter Number: ")
+sum = 0
+
+while num!=0:
+	digit = int(num%10)
+	sum += digit #same as sum = sum+digit
+	num = num/10
+
+print(sum)
+
+
+# We will extract each character in the string input and convert it to an individual character’s integer equivalent.
