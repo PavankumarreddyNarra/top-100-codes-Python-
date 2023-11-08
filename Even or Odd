@@ -1,0 +1,22 @@
+#Python Program to Check Whether a Number is Even or Odd
+# Check Whether a Number is Even or Odd in Python
+# Given an integer input num, the objective is to write a code to Check Whether a Number is Even or Odd in Python. To do so we check if the number is divisible by 2 or not, it’s Even if it’s divisible otherwise Odd.
+
+# Example 
+# Input : num = 3
+# Output : Odd 
+
+# Method 1 : Using Brute Force
+num = int(input("Enter a Number:")) 
+if num % 2 == 0: 
+  print("Given number is Even") 
+else: 
+  print("Given number is Odd")
+  
+# Insert a number.
+# If the given number is divisible by 2, then print,” Given number is even”.
+# If the given number is not divisible by 2, then print ,”Given number is odd”.
+
+# Method 2 : Using Ternary Operator
+num = int(input("Enter a Number:")) 
+print("Even") if num%2 == 0 else print("Odd")
