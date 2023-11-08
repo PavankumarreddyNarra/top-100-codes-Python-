@@ -1,0 +1,19 @@
+# Find the Sum of the Numbers in a Given Range
+# Given two integer inputs as the range [ low , high ], the objective is to find the sum of the numbers that lay in the intervals given by the integer inputs. Therefore we’ll write a code to Find the Sum of the Numbers in a Given Range in Python Language.
+
+# Example
+# Input : 2 5
+# Output : 14
+
+num1 = int(input("Enter a low Number:"))
+num2 = int(input("Enter a high Number:"))
+sum = 0
+for i in range(num1,num2+1):
+  sum+=i   # same as sum = sum + i.
+print(sum)
+
+
+# Initialize the required variables.
+# Run a for loop from num1 to num2+1 i.e [num1,num2].
+# Append i to sum variable with each iteration.
+# Print sum variable.
