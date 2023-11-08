@@ -1,0 +1,22 @@
+# Find the Greatest of the Three Numbers
+# Given three integer inputs the objective is to find the largest among them. Therefore we write a code to Find the Greatest of the Three Numbers in Python.
+
+# Example
+# Input : 20 30 10
+# Output : 30
+
+num1 = int(input("Enter a  Number1:"))
+num2 = int(input("Enter a  Number2:")) 
+num3 = int(input("Enter a  Number3:"))
+max = 0
+if num1 >= num2 and num1 >= num3:
+  print(num1)
+elif num2 >= num1 and num2 >= num3:
+  print(num2)
+else:
+  print(num3)
+  
+  
+#  Initialize the required variables.
+# Using nested if-else check if the numbers are greater than max and change max if true.
+# Print max variable.
