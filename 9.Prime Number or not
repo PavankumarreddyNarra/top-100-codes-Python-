@@ -1,0 +1,23 @@
+# Check Whether a Number is a Prime or Not in Python
+# Given an integer input the objective is to write a program to Check Whether a Number is a Prime or Not in Python Language.
+
+# Example
+# Input : 11
+# Output : 11 is a Prime
+
+
+num = int(input("Enter a number:"))
+flag = 0
+for i in range(2,num):
+  if num%i==0:
+    flag = 1
+    break
+if flag == 1:
+  print('Not Prime')
+else:
+  print("Prime")
+  
+  
+# If the number is greater than 2.
+# If the number has any factors in the range [2,number].
+# If any off the above conditions are satisfied, the number isn’t a Prime.
